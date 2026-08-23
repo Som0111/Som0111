@@ -31,7 +31,7 @@ I enjoy working at the intersection of **Machine Learning**, **Data Engineering*
 
 ## <span>🧠</span> <b>Flagship Project</b>
 
-### <span>🧠</span> **[CI-Brain](https://github.com/Som0111/ci-brain)** · <i>AI-Powered Continuous Integration Intelligence Platform</i>
+### <span>🧠</span> **[CI-Brain](https://github.com/Som0111/ci-brain)** · <i>Continuous Integration Intelligence Platform</i>
 
 > `FastAPI` · `PostgreSQL` · `SQLAlchemy` · `Alembic` · `React + TypeScript` · `Docker` · `GitHub Actions` · `Google Gemini` · `Render`
 
@@ -237,7 +237,7 @@ B.Tech — Electrical Engineering · Graduating 2028
 ---
 
 <p align="center">
-  <i>Open to SDE and ML Engineering internships · Placement 2027</i><br/><br/>
+  <i>Open to SDE, Machine Learning and Data Engineering internships · Placement 2028</i><br/><br/>
   <a href="https://www.linkedin.com/in/soumya-swarup-padhi-91ab90414/">LinkedIn</a>
   ·
   <a href="https://github.com/Som0111">GitHub</a>
