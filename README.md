@@ -1,12 +1,17 @@
-<h1 align="center">Hi, I'm Soumya Padhi 👋</h1>
-
 <p align="center">
-  <b>B.Tech Electrical Engineering · NIT Rourkela · Graduating 2028</b><br/>
-  Building ML systems, data pipelines, and AI-powered engineering tools
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=900&color=58A6FF&center=true&vCenter=true&width=620&height=48&lines=Hi%2C+I'm+Soumya+Padhi+%F0%9F%91%8B" alt="Hi, I'm Soumya Padhi" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&pause=1200&color=58A6FF&center=true&vCenter=true&width=760&lines=Machine+Learning+%7C+Data+Engineering+%7C+AI;Building+systems+that+go+beyond+the+notebook;Electrical+Engineering+%C3%97+Machine+Learning" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&pause=800&color=A5D6FF&center=true&vCenter=true&width=760&height=34&lines=%E2%9A%A1+B.Tech+Electrical+Engineering+%C2%B7+NIT+Rourkela+%C2%B7+Graduating+2028" alt="Electrical Engineering at NIT Rourkela" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&pause=800&color=7EE787&center=true&vCenter=true&width=760&height=34&lines=%F0%9F%A4%96+Machine+Learning+%7C+Data+Engineering+%7C+AI" alt="Machine Learning Data Engineering AI" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&pause=800&color=F2CC60&center=true&vCenter=true&width=760&height=34&lines=%F0%9F%9B%A0%EF%B8%8F+Building+systems+that+go+beyond+the+notebook" alt="Building systems that go beyond the notebook" />
 </p>
 
 <p align="center">
@@ -20,13 +25,17 @@
 
 ---
 
-I enjoy working at the intersection of **Machine Learning, Data Engineering, and real-world engineering problems** — with a focus on building systems that are measurable, deployable, and useful beyond a notebook.
+I enjoy working at the intersection of **Machine Learning**, **Data Engineering**, and **real-world engineering problems** — with a focus on building systems that are **measurable, deployable, and useful beyond a notebook**.
 
-## 🧠 Flagship Project
+## <span>🧠</span> <b>Flagship Project</b>
 
-### [CI-Brain](https://github.com/Som0111/ci-brain) · *AI-Powered CI Intelligence Platform*
+### <span>🧠</span> **[CI-Brain](https://github.com/Som0111/ci-brain)** · <i>AI-Powered CI Intelligence Platform</i>
 
-> FastAPI · PostgreSQL · SQLAlchemy · Alembic · React + TypeScript · Docker · GitHub Actions · Google Gemini · Render
+> `FastAPI` · `PostgreSQL` · `SQLAlchemy` · `Alembic` · `React + TypeScript` · `Docker` · `GitHub Actions` · `Google Gemini` · `Render`
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=7EE787&center=true&vCenter=true&width=700&height=30&lines=Which+tests+should+run%3F;Which+tests+are+flaky%3F;What+actually+caused+the+failure%3F" alt="CI-Brain questions" />
+</p>
 
 CI-Brain analyzes CI pipelines to make software testing faster and more intelligent — covering the three core problems large engineering orgs actually solve: **which tests to run, which tests are flaky, and what caused a wall of failures.**
 
@@ -75,13 +84,17 @@ Developer Dashboard
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 <b>Featured Projects</b>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&pause=1200&color=79C0FF&center=true&vCenter=true&width=650&height=28&lines=Build+%E2%86%92+Measure+%E2%86%92+Deploy+%E2%86%92+Improve" alt="Build Measure Deploy Improve" />
+</p>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### ⚡ [GridPulse](https://github.com/Som0111/gridpulse)
+### ⚡ **[GridPulse](https://github.com/Som0111/gridpulse)**
 
 **India Electricity Demand Analytics**
 
@@ -99,7 +112,7 @@ End-to-end ELT pipeline analyzing India's electricity demand across **65,178+ st
 
 <td width="50%" valign="top">
 
-### 📈 [ChurnGuard](https://github.com/Som0111/churn-guard)
+### 📈 **[ChurnGuard](https://github.com/Som0111/churn-guard)**
 
 **Cost-Sensitive Churn Prediction**
 
@@ -119,7 +132,7 @@ Optimizes the decision threshold around the **actual economics of a retention ca
 <tr>
 <td width="50%" valign="top">
 
-### 🕵️ [FraudLens](https://github.com/Som0111/fraud-detection-research)
+### 🕵️ **[FraudLens](https://github.com/Som0111/fraud-detection-research)**
 
 **Credit Card Fraud Detection**
 
@@ -131,7 +144,7 @@ End-to-end fraud detection including **temporal drift analysis**, model robustne
 
 <td width="50%" valign="top">
 
-### 🔌 [Electrical Load Fingerprinting](https://github.com/Som0111/electrical-load-fingerprinting)
+### 🔌 **[Electrical Load Fingerprinting](https://github.com/Som0111/electrical-load-fingerprinting)**
 
 **NILM — Non-Intrusive Load Monitoring**
 
@@ -147,9 +160,9 @@ Identifies household appliances from aggregate power consumption by combining **
 
 ---
 
-## 🔨 Currently Building
+## 🔨 <b>Currently Building</b>
 
-### 🎮 [VisionPlay AI](https://github.com/Som0111/VisionPlay-AI)
+### 🎮 **[VisionPlay AI](https://github.com/Som0111/VisionPlay-AI)**
 
 <p>
   <img src="https://img.shields.io/badge/STATUS-ACTIVE-2EA043?style=for-the-badge" alt="Active"/>
@@ -171,7 +184,7 @@ Current focus:
 
 ---
 
-## 🧩 What I Work With
+## 🧩 <b>What I Work With</b>
 
 **Core**
 
@@ -191,7 +204,7 @@ Current focus:
 
 ---
 
-## 📊 GitHub Activity
+## 📊 <b>GitHub Activity</b>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Som0111&show_icons=true&theme=github_dark&hide_border=true&count_private=true" height="165" alt="GitHub stats"/>
@@ -204,14 +217,14 @@ Current focus:
 
 ---
 
-## 🎓 Education
+## 🎓 <b>Education</b>
 
 **National Institute of Technology Rourkela**  
-B.Tech — Electrical Engineering · Graduating 2028
+B.Tech — Electrical Engineering · Graduating 2027
 
 ---
 
-## 📌 Current Focus
+## 📌 <b>Current Focus</b>
 
 - Machine Learning Engineering
 - Data Engineering
