@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Soumya Padhi 👋</h1>
 
 <p align="center">
- <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&pause=800&color=A5D6FF&center=true&vCenter=true&width=760&height=34&lines=B.Tech+in+Electrical+Engineering+%E2%9A%A1" alt="B.Tech in Electrical Engineering" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&pause=800&color=A5D6FF&center=true&vCenter=true&width=760&height=34&lines=B.Tech+in+Electrical+Engineering+%E2%9A%A1" alt="B.Tech in Electrical Engineering" />
 </p>
 
 <p align="center">
