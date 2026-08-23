@@ -3,7 +3,7 @@
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&pause=800&color=A5D6FF&center=true&vCenter=true&width=760&height=34&lines=%E2%9A%A1+B.Tech+Electrical+Engineering+%C2%B7+NIT+Rourkela+%C2%B7+Graduating+2028" alt="Electrical Engineering at National Institute of Technology, Rourkela" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&pause=800&color=A5D6FF&center=true&vCenter=true&width=760&height=34&lines=%E2%9A%A1+B.Tech+Electrical+Engineering+%C2%B7+National Institute of Technology,+Rourkela+%C2%B7+Graduating+2028" alt="Electrical Engineering at National Institute of Technology, Rourkela" />
 </p>
 
 <p align="center">
