@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Soumya Padhi 👋</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&pause=800&color=A5D6FF&center=true&vCenter=true&width=760&height=34&lines=B.Tech+in+Electrical+Engineering+%E2%9A%A1" alt="B.Tech in Electrical Engineering" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&pause=800&color=A5D6FF&center=true&vCenter=true&width=760&height=34&lines=%E2%9A%A1+B.Tech+in+Electrical+Engineering" alt="B.Tech in Electrical Engineering" />
 </p>
 
 <p align="center">
@@ -237,7 +237,7 @@ B.Tech — Electrical Engineering · Graduating 2028
 ---
 
 <p align="center">
-  <i>Open to SDE and ML Engineering internships · Placement 2028</i><br/><br/>
+  <i>Open to SDE and ML Engineering internships · Placement 2027</i><br/><br/>
   <a href="https://www.linkedin.com/in/soumya-swarup-padhi-91ab90414/">LinkedIn</a>
   ·
   <a href="https://github.com/Som0111">GitHub</a>
