@@ -6,11 +6,15 @@
 </p>
 
 <p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&pause=1200&color=58A6FF&center=true&vCenter=true&width=760&lines=Machine+Learning+%7C+Data+Engineering+%7C+AI;Building+systems+that+go+beyond+the+notebook;Electrical+Engineering+%C3%97+Machine+Learning" alt="Typing animation" />
+</p>
+
+<p align="center">
   <a href="https://www.linkedin.com/in/soumya-swarup-padhi-91ab90414/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="https://github.com/Som0111">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
 </p>
 
@@ -18,131 +22,184 @@
 
 I enjoy working at the intersection of **Machine Learning, Data Engineering, and real-world engineering problems** — with a focus on building systems that are measurable, deployable, and useful beyond a notebook.
 
+## 🧠 Flagship Project
+
+### [CI-Brain](https://github.com/Som0111/ci-brain) · *AI-Powered CI Intelligence Platform*
+
+> FastAPI · PostgreSQL · SQLAlchemy · Alembic · React + TypeScript · Docker · GitHub Actions · Google Gemini · Render
+
+CI-Brain analyzes CI pipelines to make software testing faster and more intelligent — covering the three core problems large engineering orgs actually solve: **which tests to run, which tests are flaky, and what caused a wall of failures.**
+
+| Tests eliminated | Wall-clock time saved | Flaky tests caught |
+|---|---|---|
+| **57.5–98.9%** | **9.5–58.2%** | **4 / 4 · 0 false positives** |
+
+**Benchmarked against `toolz`**, a real open-source Python library.
+
+<p align="center">
+  <a href="https://github.com/Som0111/ci-brain"><img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="View CI-Brain"/></a>
+  <a href="https://ci-brain.onrender.com/health"><img src="https://img.shields.io/badge/Live_API-46E3B7?style=for-the-badge&logo=fastapi&logoColor=white" alt="Live API"/></a>
+</p>
+
+<details>
+<summary><b>🔍 How CI-Brain works</b></summary>
+
+```text
+CI data
+   ↓
+Coverage / file-to-test dependency graph
+   ↓
+Test Impact Analysis
+   ↓
+Statistical Flaky-Test Detection
+   ↓
+Failure Clustering
+   ↓
+Evidence-grounded LLM Explanation
+   ↓
+Developer Dashboard
+```
+
+</details>
+
+<details>
+<summary><b>🧪 Engineering highlights</b></summary>
+
+- Test Impact Analysis falls back to the full suite when confidence is insufficient.
+- Flaky-test detection uses behavioral evidence rather than a simple failure-rate threshold.
+- Failure clustering groups failures by likely root cause before asking the LLM for a summary.
+- **110 tests** with **98%+ branch coverage**.
+- FastAPI backend, PostgreSQL database, React + TypeScript dashboard, Dockerized deployment and GitHub Actions integration.
+
+</details>
+
 ---
 
 ## 🚀 Featured Projects
 
-### 🧠 [CI-Brain](https://github.com/Som0111/ci-brain) · *AI-Powered CI Intelligence Platform*
+<table>
+<tr>
+<td width="50%" valign="top">
 
-> FastAPI · PostgreSQL · SQLAlchemy · Alembic · React + TypeScript · Docker · GitHub Actions · Google Gemini · Render
+### ⚡ [GridPulse](https://github.com/Som0111/gridpulse)
 
-Analyzes CI pipelines to make software testing faster and more intelligent — covering the three core problems large engineering orgs actually solve: which tests to run, which tests are flaky, and what caused a wall of failures.
+**India Electricity Demand Analytics**
 
-- **Test Impact Analysis** — builds a real file-to-test dependency graph from coverage data; falls back to full suite when it can't answer confidently rather than guessing
-- **Statistical flaky-test detection** — flags tests that produce both pass and fail on identical code, not just when fail rate crosses a threshold; gives a confidence level and quarantine recommendation
-- **LLM failure clustering** — groups failures by likely root cause and returns a plain-English hypothesis per cluster, grounded in actual evidence
-
-**Benchmarked against `toolz` (real open-source Python library):**
-
-| Metric | Result |
-|---|---|
-| Tests eliminated | 57.5–98.9% fewer tests executed |
-| Wall-clock time saved | 9.5–58.2% reduction |
-| Flaky tests caught | 4 / 4 with **0 false positives** |
-
-**Live API:** [ci-brain.onrender.com/health](https://ci-brain.onrender.com/health) · 98%+ branch coverage across 110 tests
-
----
-
-### ⚡ [GridPulse](https://github.com/Som0111/gridpulse) · *India Electricity Demand Analytics*
-
-> Python · PostgreSQL (Neon) · SARIMAX · Power BI · GitHub Actions
+Python · PostgreSQL · SARIMAX · Power BI · GitHub Actions
 
 End-to-end ELT pipeline analyzing India's electricity demand across **65,178+ state-level daily records (2020–2025)**.
 
-- PostgreSQL star schema on Neon cloud
-- 12 SQL analyses with CTEs and window functions covering regional patterns, seasonal trends, and anomalies
-- SARIMAX forecast model — **2.49% MAPE**
-- Power BI dashboard: National Pulse + State Explorer pages
-- Daily automated refresh via GitHub Actions with data-quality validation
+- PostgreSQL star schema on Neon
+- 12 SQL analyses using CTEs and window functions
+- SARIMAX forecast — **2.49% MAPE**
+- Power BI dashboard
+- Daily automated refresh with data-quality validation
 
----
+</td>
 
-### 📈 [ChurnGuard](https://github.com/Som0111/churn-guard) · *Cost-Sensitive Churn Prediction*
+<td width="50%" valign="top">
 
-> scikit-learn · FastAPI · Docker · GitHub Actions · Render
+### 📈 [ChurnGuard](https://github.com/Som0111/churn-guard)
 
-Instead of optimizing for accuracy, ChurnGuard optimizes the decision threshold around the **actual economics of a retention campaign**.
+**Cost-Sensitive Churn Prediction**
 
-- Cost-sensitive threshold tuning on campaign profit, not the default 0.5 cutoff
-- Model comparison, calibration, and end-to-end sklearn pipeline
-- Deployed as a FastAPI microservice with Docker + CI/CD
+scikit-learn · FastAPI · Docker · GitHub Actions · Render
 
-**Held-out result:**
+Optimizes the decision threshold around the **actual economics of a retention campaign**, rather than accuracy alone.
 
-| Approach | Campaign Profit |
-|---|---|
+| Strategy | Profit |
+|---|---:|
 | Blanket campaign | −$14,350 |
-| ChurnGuard-targeted | **+$16,250** |
+| ChurnGuard | **+$16,250** |
 | **Swing** | **+$30,600** |
 
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 🕵️ [FraudLens](https://github.com/Som0111/fraud-detection-research)
+
+**Credit Card Fraud Detection**
+
+XGBoost · Neural Networks · Jupyter
+
+End-to-end fraud detection including **temporal drift analysis**, model robustness and business cost optimization — not just AUC.
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🔌 [Electrical Load Fingerprinting](https://github.com/Som0111/electrical-load-fingerprinting)
+
+**NILM — Non-Intrusive Load Monitoring**
+
+Signal Processing · scikit-learn · REFIT
+
+Identifies household appliances from aggregate power consumption by combining **Electrical Engineering, signal processing, and ML**.
+
+**Random Forest Macro F1: 0.56**
+
+</td>
+</tr>
+</table>
+
 ---
 
-### 🕵️ [FraudLens](https://github.com/Som0111/fraud-detection-research) · *Credit Card Fraud Detection*
+## 🔨 Currently Building
 
-> XGBoost · Neural Networks · Jupyter
+### 🎮 [VisionPlay AI](https://github.com/Som0111/VisionPlay-AI)
 
-End-to-end fraud detection with XGBoost and neural networks, including temporal drift analysis and business cost optimization — not just AUC.
+<p>
+  <img src="https://img.shields.io/badge/STATUS-ACTIVE-2EA043?style=for-the-badge" alt="Active"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white" alt="OpenCV"/>
+  <img src="https://img.shields.io/badge/MediaPipe-00897B?style=flat&logo=google&logoColor=white" alt="MediaPipe"/>
+  <img src="https://img.shields.io/badge/ONNX_Runtime-005CED?style=flat&logo=onnx&logoColor=white" alt="ONNX Runtime"/>
+</p>
 
----
+A modular, plugin-based computer-vision platform for gesture-controlled applications and AI demos.
 
-### 🔌 [Electrical Load Fingerprinting](https://github.com/Som0111/electrical-load-fingerprinting) · *NILM*
+Current focus:
 
-> Signal Processing · scikit-learn · REFIT Dataset
-
-Identifies household appliances from aggregate power consumption data — combining Electrical Engineering, signal processing, and ML.
-
-- Event detection + electrical feature extraction + appliance classification
-- Logistic Regression, Decision Tree, Random Forest comparison
-- **Random Forest Macro F1: 0.56** on REFIT household electricity data
-
----
-
-### 🎮 [VisionPlay AI](https://github.com/Som0111/VisionPlay-AI) · *Computer Vision Platform*
-
-> Python · OpenCV · MediaPipe · ONNX Runtime · PySide6
-
-Modular, plugin-based platform for gesture-controlled applications and computer vision demos. Shared camera pipeline, CPU-efficient inference, ONNX Runtime integration.
+- Plugin-based application architecture
+- Shared camera pipeline
+- Computer-vision inference
+- CPU-efficient processing
+- ONNX Runtime integration
 
 ---
 
-## 🛠️ Tech Stack
+## 🧩 What I Work With
 
-**Languages**
+**Core**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-003B57?style=flat&logo=postgresql&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+`Python` · `C++` · `SQL`
 
 **ML / AI**
 
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-189AB4?style=flat&logo=python&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
-![ONNX](https://img.shields.io/badge/ONNX-005CED?style=flat&logo=onnx&logoColor=white)
+`scikit-learn` · `TensorFlow` · `XGBoost` · `OpenCV` · `ONNX`
 
-**Data & Backend**
+**Data / Backend**
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+`PostgreSQL` · `FastAPI` · `Docker` · `GitHub Actions` · `Pandas`
 
-**Visualization**
+**Frontend / Visualization**
 
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+`React` · `TypeScript` · `Power BI`
 
 ---
 
-## 📈 GitHub Stats
+## 📊 GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Som0111&show_icons=true&theme=github_dark&hide_border=true&count_private=true" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Som0111&layout=compact&theme=github_dark&hide_border=true" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Som0111&show_icons=true&theme=github_dark&hide_border=true&count_private=true" height="165" alt="GitHub stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Som0111&layout=compact&theme=github_dark&hide_border=true" height="165" alt="Top languages"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Som0111&theme=github-compact&hide_border=true&area=true" alt="GitHub activity graph"/>
 </p>
 
 ---
@@ -154,7 +211,19 @@ B.Tech — Electrical Engineering · Graduating 2028
 
 ---
 
+## 📌 Current Focus
+
+- Machine Learning Engineering
+- Data Engineering
+- Computer Vision
+- AI-powered developer tools
+- Production-oriented ML systems
+
+---
+
 <p align="center">
-  <i>Open to SDE and ML Engineering internships · Placement 2028</i><br/>
-  <a href="https://www.linkedin.com/in/soumya-swarup-padhi-91ab90414/">LinkedIn</a> · <a href="https://github.com/Som0111">GitHub</a>
+  <i>Open to SDE and ML Engineering internships · Placement 2028</i><br/><br/>
+  <a href="https://www.linkedin.com/in/soumya-swarup-padhi-91ab90414/">LinkedIn</a>
+  ·
+  <a href="https://github.com/Som0111">GitHub</a>
 </p>
