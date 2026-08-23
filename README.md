@@ -150,11 +150,11 @@ Modular, plugin-based platform for gesture-controlled applications and computer 
 ## 🎓 Education
 
 **National Institute of Technology Rourkela**  
-B.Tech — Electrical Engineering · Graduating 2027
+B.Tech — Electrical Engineering · Graduating 2028
 
 ---
 
 <p align="center">
-  <i>Open to SDE and ML Engineering internships · Placement 2027</i><br/>
+  <i>Open to SDE and ML Engineering internships · Placement 2028</i><br/>
   <a href="https://www.linkedin.com/in/soumya-swarup-padhi-91ab90414/">LinkedIn</a> · <a href="https://github.com/Som0111">GitHub</a>
 </p>
