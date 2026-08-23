@@ -1,9 +1,9 @@
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=900&color=58A6FF&center=true&vCenter=true&width=620&height=48&lines=Hi%2C+I'm+Soumya+Padhi+%F0%9F%91%8B" alt="Hi, I'm Soumya Padhi" />
-</p>
+<h1 align="center">Hi, I'm Soumya Padhi 👋</h1>
+
+---
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&pause=800&color=A5D6FF&center=true&vCenter=true&width=760&height=34&lines=%E2%9A%A1+B.Tech+Electrical+Engineering+%C2%B7+NIT+Rourkela+%C2%B7+Graduating+2028" alt="Electrical Engineering at NIT Rourkela" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&pause=800&color=A5D6FF&center=true&vCenter=true&width=760&height=34&lines=%E2%9A%A1+B.Tech+Electrical+Engineering+%C2%B7+NIT+Rourkela+%C2%B7+Graduating+2028" alt="Electrical Engineering at National Institute of Technology, Rourkela" />
 </p>
 
 <p align="center">
