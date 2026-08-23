@@ -31,7 +31,7 @@ I enjoy working at the intersection of **Machine Learning**, **Data Engineering*
 
 ## <span>🧠</span> <b>Flagship Project</b>
 
-### <span>🧠</span> **[CI-Brain](https://github.com/Som0111/ci-brain)** · <i>AI-Powered CI Intelligence Platform</i>
+### <span>🧠</span> **[CI-Brain](https://github.com/Som0111/ci-brain)** · <i>AI-Powered Continuous Integration Intelligence Platform</i>
 
 > `FastAPI` · `PostgreSQL` · `SQLAlchemy` · `Alembic` · `React + TypeScript` · `Docker` · `GitHub Actions` · `Google Gemini` · `Render`
 
