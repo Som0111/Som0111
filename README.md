@@ -45,7 +45,7 @@ CI-Brain analyzes CI pipelines to make software testing faster and more intellig
 |---|---|---|
 | **57.5–98.9%** | **9.5–58.2%** | **4 / 4 · 0 false positives** |
 
-**Benchmarked against `toolz`**, a real open-source Python library.
+**Benchmarked against `toolz`**, a real open-source Python library, across a range of simulated single-file and multi-file diffs — ranges reflect diff size, not a single run.
 
 <p align="center">
   <a href="https://github.com/Som0111/ci-brain"><img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="View CI-Brain"/></a>
@@ -127,6 +127,8 @@ Optimizes the decision threshold around the **actual economics of a retention ca
 | Blanket campaign | −$14,350 |
 | ChurnGuard | **+$16,250** |
 | **Swing** | **+$30,600** |
+
+*Profit figures use illustrative campaign-cost assumptions ($50 offer cost / $500 customer LTV / 30% save rate) on the IBM Telco dataset — the framework is the point, not these exact dollar values.*
 
 </td>
 </tr>
