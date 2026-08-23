@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Soumya Padhi 👋</h1>
 
 <p align="center">
-  <b>B.Tech Electrical Engineering · NIT Rourkela · Graduating 2027</b><br/>
+  <b>B.Tech Electrical Engineering · NIT Rourkela · Graduating 2028</b><br/>
   Building ML systems, data pipelines, and AI-powered engineering tools
 </p>
 
